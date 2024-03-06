@@ -2,7 +2,7 @@
   "name": "myapp2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alirezardj.github.io/FoodIngridients.git",
+  "homepage": "https://alirezardj.github.io/FoodING.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
