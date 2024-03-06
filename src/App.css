@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Search*/
+.searchbar-container {
+  padding: 20px;
+  display: flex;
+}
+.search-input {
+  background: rgb(220, 220, 220);
+  margin-right: 5px;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid white;
+}
+.search-button {
+  border: transparent;
+  border-radius: 2px;
+  background: navy;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+
+  border: 2px solid white;
+}
+.random-button {
+  margin-left: auto;
+  border: transparent;
+  border-radius: 2px;
+  background: orange;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+
+  border: 2px solid white;
+}
+.header {
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    42deg,
+    rgba(252, 176, 69, 1) 4%,
+    rgba(253, 29, 29, 1) 71%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 20px;
+  display: flex;
+
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.52);
+}
+.sty {
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+/*meals*/
+.meal-background {
+  min-height: 100vh;
+}
+.main-meals {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-top: 50px;
+  gap: 30px;
+  color: white;
+}
+.picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.52);
+  border: 3px solid white;
+}
+
+/*MyModal*/
+.base-modal {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.45);
+  width: 100%;
+
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-container {
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.52);
+  border-radius: 5px;
+  margin: 10px;
+}
+.image-container {
+  align-self: center;
+  height: 250px;
+  width: 350px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.alltext-container {
+  background: white;
+  width: 350px;
+  height: 250px;
+  padding: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.source-button {
+  display: flex;
+}
+
+.close-button {
+  background: rgb(255, 1, 1);
+  border-radius: 5px;
+  color: white;
+  border: transparent;
+  width: 50px;
+  margin-left: auto;
+}
+
+/*MainPage*/
+.main-page {
+  background-color: rgb(195, 195, 195);
+}
+.intro {
+}
+.icon-main {
+  display: flex;
+  gap: 60px;
+}
+.icon-style {
+  width: 55px;
+  height: 55px;
+}
+.icon-1,
+.icon-2 {
+  color: #38bdf8;
+}
+.icon-4 {
+  color: #fdd663;
+}
+.icon-5 {
+  color: #ea580c;
+}
+.icon-6 {
+  color: #2563eb;
+}
+.java-logs {
+  width: 200px;
+  height: 200px;
+}
