@@ -156,7 +156,6 @@
 @media only screen and (max-width: 480px) {
   .main-meals {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 27px;
+    justify-content: center;
   }
 }
