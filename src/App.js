@@ -1,7 +1,7 @@
 //import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 //import Navbar from "./Components/Navbar";
 import Meals from "./Components/Meals";
 //import Search from "./Components/Search";
@@ -21,4 +21,3 @@ function App() {
 }
 
 export default App;
-/*<Navbar />*/
